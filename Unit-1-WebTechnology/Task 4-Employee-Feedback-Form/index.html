@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Employee Feedback Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <h1>Employee Feedback Form</h1>
+
+    <div class="form-container">
+        <form>
+
+            <label for="name">Name</label>
+            <input type="text" id="name" placeholder="Enter your name" required>
+
+            <label for="email">Email</label>
+            <input type="email" id="email" placeholder="Enter your email" required>
+
+            <label for="department">Department</label>
+            <input type="text" id="department" placeholder="Enter your department" required>
+
+            <label for="role">Role / Position</label>
+            <input type="text" id="role" placeholder="Enter your role" required>
+
+            <label for="experience">Overall Experience</label>
+            <select id="experience" required>
+                <option value="">-- Select Experience --</option>
+                <option>Excellent</option>
+                <option>Good</option>
+                <option>Average</option>
+                <option>Poor</option>
+            </select>
+
+            <label for="feedback">Feedback</label>
+            <textarea id="feedback" rows="4" placeholder="Write your feedback here..." required></textarea>
+
+            <button type="submit">Submit</button>
+
+        </form>
+    </div>
+
+</body>
+</html>

@@ -1,0 +1,32 @@
+body {
+    font-family: 'Segoe UI', sans-serif;
+    margin: 0;
+    background: #f5f7fa;
+}
+
+.main-container {
+    width: 85%;
+    margin: 50px auto;
+    padding: 40px;
+    background: white;
+    border-radius: 20px;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+}
+
+.profile-section {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+
+.profile-section img {
+    width: 180px;
+    border-radius: 20px;
+}
+
+.services li {
+    padding: 10px;
+    background: #eef3f9;
+    margin-bottom: 8px;
+    border-radius: 8px;
+}

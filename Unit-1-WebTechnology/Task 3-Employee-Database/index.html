@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Employee Management System</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <h1>Employee Management System</h1>
+
+    <!-- Add Button -->
+    <button class="add-btn">Add Employee</button>
+
+    <div class="container">
+
+        <!-- Employee Input Form Table -->
+        <div class="form-section">
+            <h2>Add Employee Details</h2>
+            <table class="input-table">
+                <tr>
+                    <td>Employee ID</td>
+                    <td><input type="text" placeholder="Enter ID"></td>
+                </tr>
+                <tr>
+                    <td>Name</td>
+                    <td><input type="text" placeholder="Enter Name"></td>
+                </tr>
+                <tr>
+                    <td>Date of Birth</td>
+                    <td><input type="date"></td>
+                </tr>
+                <tr>
+                    <td>Department</td>
+                    <td><input type="text" placeholder="Enter Department"></td>
+                </tr>
+                <tr>
+                    <td>Skill</td>
+                    <td><input type="text" placeholder="Enter Skill"></td>
+                </tr>
+                <tr>
+                    <td>Password</td>
+                    <td><input type="password" placeholder="Enter Password"></td>
+                </tr>
+                <tr>
+                    <td colspan="2" align="center">
+                        <button class="save-btn">Save</button>
+                    </td>
+                </tr>
+            </table>
+        </div>
+
+        <!-- Employee Display Table -->
+        <div class="display-section">
+            <h2>Employee Records</h2>
+            <table class="display-table">
+                <tr>
+                    <th>ID</th>
+                    <th>Name</th>
+                    <th>DOB</th>
+                    <th>Department</th>
+                    <th>Skill</th>
+                    <th>Action</th>
+                </tr>
+
+                <tr>
+                    <td>101</td>
+                    <td>Prince Kumar</td>
+                    <td>2005-06-15</td>
+                    <td>IT</td>
+                    <td>Java</td>
+                    <td>
+                        <button class="edit-btn">Edit</button>
+                        <button class="delete-btn">Delete</button>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td>102</td>
+                    <td>Anita Sharma</td>
+                    <td>2004-08-22</td>
+                    <td>HR</td>
+                    <td>Communication</td>
+                    <td>
+                        <button class="edit-btn">Edit</button>
+                        <button class="delete-btn">Delete</button>
+                    </td>
+                </tr>
+
+            </table>
+        </div>
+
+    </div>
+
+</body>
+</html>

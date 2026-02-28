@@ -1,0 +1,54 @@
+/* Page Styling */
+body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(to right, #dfe9f3, #ffffff);
+    text-align: center;
+    padding: 20px;
+}
+
+/* Heading */
+h1 {
+    color: darkblue;
+    margin-bottom: 20px;
+}
+
+/* Table Styling */
+table {
+    width: 80%;
+    margin: auto;
+    border-collapse: collapse;
+    background-color: white;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+/* Caption */
+caption {
+    font-size: 18px;
+    font-weight: bold;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+/* Table Header */
+th {
+    background-color: #4CAF50;
+    color: white;
+    padding: 12px;
+}
+
+/* Table Data */
+td {
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+}
+
+/* Row Hover Effect */
+tr:hover {
+    background-color: #f2f2f2;
+}
+
+/* Alternate Row Color */
+tbody tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
